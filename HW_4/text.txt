@@ -1,0 +1,15 @@
+Description
+Mozila:
+1) Initial release	September 23, 2002
+2) Written in	C/C++, JavaScript, CSS, XUL, XBL
+3) Open source	Yes
+4) Default search engine	Google
+5) Operating Systems	Windows, OS X, GNU/Linux, Android, iOS, Firefox OS (Unofficial ports to BSDs, Solaris, OpenSolaris, illumos, IBM AIX, HP-UX, UnixWare)
+6) Full screen mode	Supported
+7) Latest release	59.0.1 2018-3-16
+8) Flash player	Plugin available; not built-in
+9) Media codecs supported	WebM, Ogg Theora Vorbis, Ogg Opus, MPEG H.264 (AAC or MP3), WAVE PCM
+10) PDF viewer	PDF viewer natively supported (without plugin); more features than Google Chrome such as thumbnails, page numbers, page navigation
+11) Founder/Creator	Blake Ross
+12) Standard(s)	HTML5, CSS3, RSS, Atom, ES6
+13) Layout Engine	Gecko, SpiderMonkey, WebKit (on iOS only)
