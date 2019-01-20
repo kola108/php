@@ -18,6 +18,8 @@ if (file_exists($fileName)) {
 
     echo "<p>file text:</p> <pre>" . file_get_contents($fileName) . "</pre>";
 
+    fclose($fileName);
+
 } else {
     echo "can't open the file";
 }
