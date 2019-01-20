@@ -23,12 +23,18 @@
     </style>
 </head>
 <body>
+
+    <!-----------------------task 1----------------------->
     <div>
         <a href="view_text.php">Task 1 click to get 5 - 15 strings from text.txt</a>
     </div>
+
+    <!-----------------------task 2----------------------->
     <div>
         <a href="view_file_info.php">Task 2 click to get information about text.txt</a>
     </div>
+
+    <!-----------------------task 3----------------------->
     <h3>User information</h3>
     <form action="save_user_data.php" method="GET">
         <div>
@@ -69,5 +75,20 @@
         </div>
         <button type="submit">Send the data</button>
     </form>
+
+    <!-----------------------task 4----------------------->
+    <h3>Files Uploading</h3>
+    <form action="save_file.php" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file[]"><br>
+        <input type="file" name="file[]"><br>
+        <input type="file" name="file[]"><br>
+        <input type="file" name="file[]"><br>
+        <button type="submit">Files upload</button>
+    </form>
+
+    <!-----------------------task 5----------------------->
+
+    <a href="session/page1.html">Check task with session</a>
+
 </body>
 </html>
