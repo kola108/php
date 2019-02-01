@@ -12,6 +12,10 @@ $result = curl_exec ($ch);
 
 curl_close($ch);
 
-echo "<plaintext>" . $result . "</plaintext>";
+$resultArr = explode(' ', $result);
+
+foreach ($resultArr as $value) {
+    echo $value;
+}
 
 exit();

@@ -3,7 +3,9 @@
 function putDataIntoFile($fileName) {
     if (file_exists($fileName)) {
         $file = fopen($fileName, "w+") or die("can't open the file");
-        $myDataString = "Name:" . $_POST['name'] . ",Last name:" . $_POST['lastName'] . ",Email:" . $_POST['email'] . ",City:" . $_POST['city'] . ",Country:" . $_POST['country'];
+        $newDate = new DateTime();
+        $date =  date_format($newDate, 'Y-M-d H:i');
+        $myDataString = "Name:" . $_POST['name'] . ",Last name:" . $_POST['lastName'] . ",Email:" . $_POST['email'] . ",City:" . $_POST['city'] . ",Country:" . $_POST['country'] . ",Registration time:" . $date;
         fwrite($file, $myDataString);
         fclose($file);
         echo 'the data was successfully saved on the ' . $fileName . ' file';
