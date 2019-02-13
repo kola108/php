@@ -13,9 +13,14 @@ if (isset($_POST["eMail"])) {
     $eMail = $_POST["eMail"];
 } else { echo 'eMail is empty'; }
 
+if (isset($_POST["about"])) {
+    $about = $_POST["about"];
+} else { echo 'about is empty'; }
+
 $loginPattern = "^[a-zа-яA-ZА-Я0-9_]{0,14}$";
 $passwordPattern = "^[a-zа-я0-9_-]{8,}$";
 $emailPattern = "^[0-9a-zA-Z_\.]+@[0-9a-z_^\.]+\.[a-z]{2,6}$";
+$aboutPattern = strtolower(preg_replace('/([A-Z]+)/', "-$1", $about));
 
 $isLoginCorrect = false;
 $isPasswordCorrect = false;
@@ -38,5 +43,5 @@ if (!$isEmailCorrect) {
 }
 
 if ($isLoginCorrect && $isPasswordCorrect && $isEmailCorrect) {
-    echo 'All data is correct.';
+    echo 'All data is correct. And your information about yourself is:' . $aboutPattern;
 }
