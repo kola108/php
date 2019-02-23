@@ -1,0 +1,8 @@
+In the Observer pattern a subject object will notify an observer object if the subject's state changes.
+
+There are four methods that can be implemented in the interfaces defined above and they are the primary make up
+of observer pattern.
+
+Function attach() provides a way we can register or associate an observer (subscriber) with a subject (publisher)
+and detach() is used to detach a disinterested observer from a publisher. Method notify() notifies all subscribed
+observers of state change which then calls update() on each observer.
