@@ -1,0 +1,15 @@
+<Nikolay>
+    <name>Nikolay</name>
+    <last-name>Shukin</last-name>
+    <midle-name>Alexandrovich</midle-name>
+    <telephones>
+        <homephone>8321784</homephone>
+        <mobilephone type="work"> +380961231234</mobilephone>
+        <mobilephone type="personal"> +380961543234</mobilephone>
+    </telephones>
+    <birthday>
+        <birthday-day>01</birthday-day>
+        <birthday-month>01</birthday-month>
+        <birthday-year>2000</birthday-year>
+    </birthday>
+</Nikolay>
