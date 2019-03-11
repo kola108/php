@@ -1,0 +1,10 @@
+CREATE TABLE Users (
+	id SMALLINT NOT NULL PRIMARY KEY,
+    name VARCHAR(20) NOT NULL,
+    surname VARCHAR(20) NOT NULL,
+    email VARCHAR(30) NOT NULL,
+    age INT NOT NULL,
+    city VARCHAR(20) NOT NULL,
+    country VARCHAR(20) NOT NULL,
+    status VARCHAR(20) DEFAULT 0
+);

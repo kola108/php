@@ -1,0 +1,4 @@
+INSERT INTO users
+	(id, age, city, country, department, email,name, surname,profession,status) VALUES
+    (1,18,'Kharkov','Ukraine','programming', 'nick1@test.ts', 'Kola', 'Test', 'student', 'active'),
+    (2,19,'Kharkov','Ukraine','programming', 'nick2@test.ts', 'Petja', 'Test', 'student', 'passive');

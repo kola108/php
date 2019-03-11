@@ -1,0 +1,1 @@
+SELECT name, surname, age, city, country FROM users;
