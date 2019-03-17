@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
          articlesLink = document.getElementById('articles-link');
 
     switch(queryString){
+        case currentUrl:
         case 'page=home':
             homeLink.classList.add('active');
             break;
@@ -16,4 +17,5 @@ document.addEventListener('DOMContentLoaded', () => {
             articlesLink.classList.add('active');
             break;
     }
+
 });
