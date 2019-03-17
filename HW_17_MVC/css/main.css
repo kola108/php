@@ -1,0 +1,58 @@
+.header-nav {
+    text-align: center;
+    padding: 20px 0;
+    background-color: black;
+    min-height: 60px;
+}
+
+.header-nav-link {
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    font-weight: bold;
+    font-size: 24px;
+    vertical-align: top;
+    display: inline-block;
+    min-height: 30px;
+}
+
+.header-nav-link.active {
+    font-size: 30px;
+    color: blueviolet;
+}
+
+.content {
+    width: 100%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+.home-title {
+    text-align: center;
+    font-size: 30px;
+    color: blueviolet;
+}
+
+.home-description {
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.content-item {
+    display: inline-block;
+    min-height: 150px;
+    min-width: 150px;
+    border: 1px solid blueviolet;
+    padding: 10px;
+    margin: 10px;
+}
+
+.content-item h3 {
+    color: blueviolet;
+    font-size: 26px;
+}
+
+.content-item p {
+    font-size: 20px;
+}
